@@ -26,8 +26,8 @@ int main(int argc, char **argv){
     GtkWidget *entry_input  = gtk_entry_new();
     GtkWidget *button_input = gtk_button_new_with_label("Generate");
 
-    gtk_box_pack_start(GTK_BOX(hbox_input), entry_input, 1, 1, 0);
-    gtk_box_pack_start(GTK_BOX(hbox_input), button_input, 1, 1, 0);
+    gtk_box_pack_start(GTK_BOX(hbox_input), entry_input, 1, 1, 10);
+    gtk_box_pack_start(GTK_BOX(hbox_input), button_input, 1, 1, 10);
 
     for(int i = 0; i < 5; i++){
         for(int j = 0; j < 5; j++){
